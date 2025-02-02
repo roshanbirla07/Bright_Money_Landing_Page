@@ -1,0 +1,342 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.faq-container {  
+    max-width: 600px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    background: white;  
+     
+}  
+
+
+
+.faq-item {  
+    border-bottom: 1px solid #e0e0e0;  
+}  
+
+.faq-question {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 15px;  
+    cursor: pointer;  
+}  
+
+.faq-question span {  
+    font-size: 16px;  
+}  
+
+.toggle-btn {  
+    background: none;  
+    border: none;  
+    font-size: 20px;  
+    cursor: pointer;  
+}  
+
+
+
+
+.reviews{
+   
+    padding: 70px;
+}
+
+.testimonials {  
+    display: flex;  
+    flex-wrap: wrap;
+      
+    gap: 20px;
+   
+    
+    
+}  
+
+.card {  
+    background-color: #f4f5f8;
+    border-radius: 10px;  
+    width:200px;
+    height: 120px;
+   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;  
+    
+}  
+
+.card p {
+
+    color: #666;
+    font-size: xx-small;
+}
+.card h3 {
+
+    font-size: small;
+}
+  
+
+ 
+
+
+
+/* payment section */
+.payment-section {
+    background-color: #f7fef7;
+    justify-self: center;
+    margin: auto;
+    
+    padding: 20px;
+}
+
+.payment-methods {
+    text-align: center;
+    justify-self: center;
+    
+    padding: auto;
+    
+}
+
+.steps {
+    margin: 20px 0;
+}
+
+.step {
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    
+   
+}
+
+.step .icon {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    max-width: 250px;
+    height: auto;
+}
+
+.content {
+    text-align: left;
+}
+
+.content h2 {
+    color: #4CAF50;
+    font-size: 24px;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.content p {
+    color: grey;
+    font-size: x-small;
+    margin-bottom: 10px;
+}
+
+.content a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+  
+
+
+.why-off-card {  
+    max-width: 800px;  
+    margin: auto;  
+    text-align: center;  
+}  
+
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; /* Adds space between the reason cards */
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.reason {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.reason img {
+    width: 50px;
+    height: 50px;
+}
+
+.reason span {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.reason p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.reason {
+    box-shadow: none;
+}
+
+
+
+/* logo section */
+
+/* styles.css */  
+
+
+
+.logo-section {  
+    text-align: center; /* Center-align the text and logos */  
+    background-color: #f4f5f8; /* White background for the container */  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+
+.logos {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-wrap: wrap; /* Allow logos to wrap to the next line */  
+    gap: 30px; /* Space between logos */  
+}  
+
+.logo img {  
+    height: 40px; /* Uniform height for logos */  
+    opacity: 0.6; /* Slightly faded logos */  
+    transition: opacity 0.3s; /* Smooth transition for hover effect */  
+}  
+
+.logo img:hover {  
+    opacity: 1; /* Highlight logo on hover */  
+}
+
+
+
+/* intro */
+/* styles.css */  
+
+
+
+.intro {  
+    
+    width:full;
+    height:auto;
+    top: 0.15px;
+    left: 0.21px;
+    text-align: center;  
+    background: linear-gradient(#feefc7, #e3f1e7);/* White background for the container */  
+    
+    padding: 20px;
+    
+}  
+.nav {
+    
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 80%; 
+    height: 42px; 
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 10px;
+
+     
+}
+
+.nav p {
+    font-size: 10px; /* Font size for the text */
+    margin: 0; /* Ensure no margin around the text */
+}
+
+
+
+.benefits {  
+    list-style-type: none; /* Remove default list styling */  
+    padding: 0;  
+    justify-items: center;
+    justify-content:space-evenly;
+
+}  
+
+.benefits li { 
+    font-size: 0.5rem;  
+    margin: 10px 0; /* Space between list items */  
+    color: #0c0d0c; /* Green color */  
+}  
+
+.illustration {  
+    margin-top: 10px;  
+}  
+
+.illustration img {  
+    width: 600px; 
+    overflow: hidden;
+    position: relative;   
+    top: 60px;
+
+}
+
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(#e5f2e3,#bae8cb);
+    padding: 10px;
+
+}
+
+.cta img {
+    width: 300px;
+    height: 300px;
+}
+
+.info-section {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 20px; 
+    font-size: small;  
+    color: #666;
+}  
+
